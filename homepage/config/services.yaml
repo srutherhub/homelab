@@ -1,0 +1,18 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- Network:
+    - Pi-hole:
+        href: http://pihole.home.lab/admin
+        description: DNS ad blocking
+        icon: pi-hole.png
+        widget:
+          type: pihole
+          url: http://192.168.1.82:8080
+          version: 6
+          key: strongPassword2001?
+    - Nginx Proxy Manager:
+        href: http://npm.home.lab
+        description: Manage proxying services to sub domains
+        icon: nginx-proxy-manager.png

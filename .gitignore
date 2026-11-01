@@ -1,0 +1,14 @@
+# NPM runtime data and certs
+nginxmanager/data/
+nginxmanager/letsencrypt/
+
+# Uptime Kuma data
+uptimekuma/data/
+
+# Pi-hole data
+pihole/etc-pihole/
+pihole/etc-dnsmasq.d/
+
+# Secrets
+.env
+*.env
