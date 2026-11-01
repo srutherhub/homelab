@@ -9,6 +9,16 @@ uptimekuma/data/
 pihole/etc-pihole/
 pihole/etc-dnsmasq.d/
 
+# Database files (any folder, includes Pi-hole's gravity.db and pihole-FTL.db)
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+
 # Secrets
 .env
 *.env

@@ -16,3 +16,13 @@
         href: http://npm.home.lab
         description: Manage proxying services to sub domains
         icon: nginx-proxy-manager.png
+- Monitor:
+  - Uptime kuma:
+      href: http://monitor.home.lab
+      description: uptime monitoring for running services
+      icon: uptime-kuma.png
+      siteMonitor: http://192.168.1.82:3001
+      widget:
+        type: uptimekuma
+        url: http://192.168.1.82:3001
+        slug: homelab

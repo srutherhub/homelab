@@ -96,3 +96,88 @@
 [2026-11-01T18:03:38.039Z] error: Host validation failed for: localhost. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
 [2026-11-01T18:03:38.277Z] error: Host validation failed for: localhost. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
 [2026-11-01T19:13:44.096Z] error: Host validation failed for: home.lab:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-11-01T20:51:51.620Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:51:51.631Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:51:51.640Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:51:51.667Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:51:52.046Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:51:52.051Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:51:52.063Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:51:53.492Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:51:53.499Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:51:53.512Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:52:02.242Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:52:02.246Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:52:02.248Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:52:03.759Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:52:03.763Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:52:03.870Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:52:18.155Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:52:18.157Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:52:18.159Z] warn: <service-helpers> Error parsing service "Uptime kuma" from config. Ensure required fields are present.
+[2026-11-01T20:52:55.778Z] error: <httpProxy> Error calling http://monitor.home.lab/...
+[2026-11-01T20:52:55.784Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND monitor.home.lab
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'monitor.home.lab'
+  }
+]
+[2026-11-01T20:52:55.787Z] error: <httpProxy> Error calling http://monitor.home.lab/api/status-page/homelab...
+[2026-11-01T20:52:55.787Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND monitor.home.lab
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'monitor.home.lab'
+  }
+]
+[2026-11-01T20:52:55.803Z] error: <httpProxy> Error calling http://monitor.home.lab/api/status-page/heartbeat/homelab...
+[2026-11-01T20:52:55.803Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND monitor.home.lab
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'monitor.home.lab'
+  }
+]
+[2026-11-01T20:52:55.820Z] error: <httpProxy> Error calling http://monitor.home.lab/...
+[2026-11-01T20:52:55.820Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND monitor.home.lab
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'monitor.home.lab'
+  }
+]
+[2026-11-01T20:53:25.738Z] error: <httpProxy> Error calling http://monitor.home.lab/...
+[2026-11-01T20:53:25.739Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND monitor.home.lab
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'monitor.home.lab'
+  }
+]
+[2026-11-01T20:53:25.759Z] error: <httpProxy> Error calling http://monitor.home.lab/...
+[2026-11-01T20:53:25.760Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENOTFOUND monitor.home.lab
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'monitor.home.lab'
+  }
+]
