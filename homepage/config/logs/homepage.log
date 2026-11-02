@@ -181,3 +181,61 @@
     hostname: 'monitor.home.lab'
   }
 ]
+[2026-11-01T22:20:14.095Z] error: <httpProxy> Error calling http://192.168.1.82:8080/api/stats/summary...
+[2026-11-01T22:20:14.096Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.82:8080
+      at ignore-listed frames {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.82',
+    port: 8080
+  }
+]
+[2026-11-01T22:20:14.097Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 500. Data: { error: [Object] }
+[2026-11-01T22:44:39.809Z] error: Host validation failed for: raspberrypi.tailb3dd48.ts.net:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-11-01T22:51:53.285Z] error: Host validation failed for: raspberrypi.tailb3dd48.ts.net:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-11-02T01:29:18.641Z] error: undefined
+[2026-11-02T01:29:18.667Z] error: <index> TypeError: Cannot read properties of null (reading '0')
+    at /app/.next/server/pages/index.js:4:116435
+    at Array.map (<anonymous>)
+    at /app/.next/server/pages/index.js:4:116380
+    at Array.map (<anonymous>)
+    at n (/app/.next/server/pages/index.js:4:116317)
+    at async Promise.all (index 1)
+    at async l (/app/.next/server/pages/index.js:4:3750)
+    at async m (/app/.next/server/pages/index.js:4:4065)
+    at async /app/.next/server/pages/index.js:4:103415
+    at async rA (/app/node_modules/.pnpm/next@16.4.1_@babel+core@7.29.7_supports-color@7.2.0__@types+node@26.2.0_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:19:637)
+[2026-11-02T01:29:18.964Z] error: undefined
+[2026-11-02T01:29:27.190Z] error: undefined
+[2026-11-02T01:29:28.999Z] error: undefined
+[2026-11-02T01:29:37.514Z] error: undefined
+[2026-11-02T01:29:42.516Z] error: undefined
+[2026-11-02T01:29:42.536Z] error: <index> TypeError: Cannot read properties of null (reading '0')
+    at /app/.next/server/pages/index.js:4:116435
+    at Array.map (<anonymous>)
+    at /app/.next/server/pages/index.js:4:116380
+    at Array.map (<anonymous>)
+    at n (/app/.next/server/pages/index.js:4:116317)
+    at async Promise.all (index 1)
+    at async l (/app/.next/server/pages/index.js:4:3750)
+    at async m (/app/.next/server/pages/index.js:4:4065)
+    at async /app/.next/server/pages/index.js:4:103415
+    at async rA (/app/node_modules/.pnpm/next@16.4.1_@babel+core@7.29.7_supports-color@7.2.0__@types+node@26.2.0_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:19:637)
+[2026-11-02T01:29:42.641Z] error: undefined
+[2026-11-02T01:29:49.015Z] error: undefined
+[2026-11-02T01:29:52.684Z] error: undefined
+[2026-11-02T01:29:57.352Z] error: <index> TypeError: Cannot read properties of null (reading '0')
+    at /app/.next/server/pages/index.js:4:116435
+    at Array.map (<anonymous>)
+    at /app/.next/server/pages/index.js:4:116380
+    at Array.map (<anonymous>)
+    at n (/app/.next/server/pages/index.js:4:116317)
+    at async Promise.all (index 1)
+    at async l (/app/.next/server/pages/index.js:4:3750)
+    at async m (/app/.next/server/pages/index.js:4:4065)
+    at async /app/.next/server/pages/index.js:4:103415
+    at async rA (/app/node_modules/.pnpm/next@16.4.1_@babel+core@7.29.7_supports-color@7.2.0__@types+node@26.2.0_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:19:637)
+[2026-11-02T01:30:02.702Z] error: undefined
